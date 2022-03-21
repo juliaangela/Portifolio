@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!--Config's-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Estilos-->
     <link rel="stylesheet" href="Style.css">
+
+    <!--Estilos Icons-->
     <link rel="apple-touch-icon" sizes="180x180" href="Estilos/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Estilos/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Estilos/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
+    <!--Titulo-->
     <title>Portifólio</title>
 </head>
-
 <body>
 
-    <div class="Banner">
+    <!--Base (MenuBotão/Banner/Menulateral)-->
+    <div class="BaseConfig">
+
+        <!--MenuBotão-->
+        <div class="menu-bt">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+
+        <!--Banner-->
         <header>
+
+            <!--Imagem-->
             <div class="img-Banner">
                 <img src="Img's/banner01.jpg" alt="">
             </div>
 
+            <!--Conteúdo-->
             <div class="txt-Banner">
                 <h1>I.T. and Web Development Student</h1>
                 <p>Julia Angela de Lima</p>
                 <button>Saiba Mais</button>
             </div>
+
         </header>
+
+        <!--MenuLateral-->
+        <div class="menu-lateral">
+
+            <!--Menu-->
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+
+            <!--Redes-->
+            <div class="social-media">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-certificate"></i></a>
+            </div>
+
+        </div>
+
     </div>
 
+    <!--Conteúdo-->
     <div class="Conteudo-01">
                 Nada do que é social e humano é mais real que as utopias. Na sua vertente eutópica, as utopias constituíram sempre o fundamento simbólico e mítico sem o qual nenhuma forma de organização social se sustenta, justifica ou sobrevive. E criam, tanto na vertente eutópica como na distópica, o vocabulário da revolução e da mudança: sem os amanhãs que cantam (ou choram) teríamos, em vez de História, um presente intemporal e eterno - como o dos faraós ou o de Francis Fukuyama.
         Aldous Huxley publicou o seu Brave New World em 1932. George Orwell, que não tinha em grande conta este livro ou o seu autor, publicou 17 anos depois a sua própria distopia, Nineteen Eighty-Four. Entre estas duas datas interpôs-se a Segunda Grande Guerra: não admira que na primeira a técnica básica da opressão do Estado fosse a manipulação genética e que na segunda, depois do descrédito em que o regime nazi lançou o eugenismo, as técnicas principais da opressão sejam a lavagem ao cérebro, a crueldade gratuita e a manipulação da linguagem.
@@ -559,4 +602,5 @@
     </div>
 
 </body>
+    <script src="scriptMenu.js"></script>
 </html>

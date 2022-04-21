@@ -42,9 +42,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
     transition: right 1s;
-    animation-delay: .4s;
 }
 .show-menu .menu-bt{
     right: 14.5rem;
